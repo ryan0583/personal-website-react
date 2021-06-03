@@ -1,0 +1,44 @@
+.navbar-brand,
+.btn {
+  font-family: "Calibri", sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  z-index: 9;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+  box-shadow: 0 5px 20px rgba(20, 20, 20, 0.3);
+}
+
+.navbar-dark {
+  background-color: rgba(0, 102, 179, 1);
+}
+
+nav.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.img-brand {
+  height: 26px;
+}
+
+/* change navbar-toggler inside lines color (stroke) */
+.navbar-dark span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* change hamburger button border color */
+.navbar-dark button.navbar-toggler {
+  border-color: rgba(0, 102, 179, 1);
+  background-color: rgba(0, 102, 179, 1);
+  transition: background-color 0.4s;
+}
+
+a:hover,
+button.navbar-toggler:hover {
+  background-color: rgba(255, 129, 80, 1);
+  transition: background-color 0.3s;
+}

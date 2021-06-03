@@ -1,0 +1,19 @@
+.img-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img-header {
+  height: 24vw;
+  box-shadow: 0 5px 20px rgba(20, 20, 20, 0.3);
+}
+
+@media screen and (max-width: 575px) {
+  .img-container {
+    justify-content: center;
+  }
+
+  .img-header {
+    height: 50vw;
+  }
+}

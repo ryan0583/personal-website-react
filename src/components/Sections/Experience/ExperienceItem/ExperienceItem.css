@@ -1,0 +1,9 @@
+.img-logo {
+  height: 7vw;
+}
+
+@media screen and (max-width: 575px) {
+  .img-logo {
+    height: 11vw;
+  }
+}

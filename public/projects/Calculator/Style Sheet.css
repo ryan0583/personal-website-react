@@ -1,0 +1,93 @@
+table
+{
+		height=100%;
+}
+
+button
+{
+	width: 100%;
+	height: 100%;
+	font-size:24px;
+	background-color: LightBlue;
+	border: none;
+	border-width: 0px;
+	border-radius: 50%;
+	box-shadow: 0 9px #999;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+  	outline: none;
+}
+
+button[type="cancel"]
+{
+	background-color: Red;
+	color: white;
+}
+
+button:hover
+{
+	background-color: #8bb6c4;
+}
+
+button[type="cancel"]:hover
+{
+	background-color: #DD0000;
+}
+
+button:active
+{
+  	background-color: #8bb6c4;
+  	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+button[type="cancel"]:active
+{
+	background-color: #DD0000;
+}
+
+td
+{
+	height: 80px;
+	width: 80px;
+	border: none;
+	border-width: 0px;
+	padding: 5px;
+	align: center;
+}
+
+table
+{
+	border: none;
+	border-width: 0px;
+	padding: 0px;
+}
+
+tr
+{
+	border: none;
+	border-width: 0px;
+	padding: 0px;
+}
+
+input[type="text"]
+{
+	display:table-cell;
+	width:100%;
+	height:100%;
+	font-size:24px;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left:10px solid green;
+}
+
+input[type="total"]
+{
+	display:table-cell;
+	width:100%;
+	height:100%;
+	font-size:16px;
+	border: none;
+}
