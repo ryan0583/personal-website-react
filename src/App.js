@@ -6,7 +6,7 @@ import Personal from "./components/Sections/Personal/Personal";
 
 function App() {
   return (
-    <div className="App">
+    <div id="home" className="App">
       <Header />
       <NavBar />
       <Content />

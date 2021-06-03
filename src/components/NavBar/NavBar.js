@@ -1,12 +1,30 @@
 import HeaderImg from "../../img/Header.jpg";
 import NavLink from "../NavLink/NavLink";
 import "./NavBar.css";
+import { useState, useEffect } from "react";
 
 const NavBar = () => {
+  const [yPosition, setYPosition] = useState(0);
+
+  useEffect(() => {
+    const onScroll = (e) => {
+      setYPosition(e.target.documentElement.scrollTop);
+    };
+    window.addEventListener("scroll", onScroll);
+
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [yPosition]);
+
+  console.log(yPosition);
+
   return (
     <nav class="navbar navbar-default navbar-expand-lg navbar-dark pl-0 pr-0">
       <div class="container-fluid brand">
-        <p class="navbar-brand text-white pl-1" style={{ display: "none" }}>
+        <p
+          className={`navbar-brand text-white pl-1 ${
+            yPosition <= 100 && "hide"
+          }`}
+        >
           <img
             alt="Ryan Griffiths"
             class="img-fluid rounded-circle img-brand"

@@ -1,4 +1,5 @@
 import PersonalItem from "./PersonalItem/PersonalItem";
+import PersonalItemLink from "./PersonalItem/PersonalItemLink";
 
 const Personal = () => {
   const content = [
@@ -6,10 +7,18 @@ const Personal = () => {
       text: "This website! Uses Bootstrap 4 and React.",
     },
     {
+      link: "https://upbeat-kowalevski-135792.netlify.app/",
+      text: [
+        "Application for viewing stats from the ",
+        <PersonalItemLink>2018 World Cup</PersonalItemLink>,
+        ", written using React.",
+      ],
+    },
+    {
       link: "http://www.endorphinmachine.co.uk",
       text: [
         "Website for ",
-        <span class="linkText">Prince Tribute - EndorphinMachine</span>,
+        <PersonalItemLink>Prince Tribute - EndorphinMachine</PersonalItemLink>,
         ", using Bootstrap and JQuery.",
       ],
     },
@@ -17,7 +26,7 @@ const Personal = () => {
       link: "./projects/Calculator/index.html",
       text: [
         "Basic JavaScript ",
-        <span class="linkText">calculator</span>,
+        <PersonalItemLink>calculator</PersonalItemLink>,
         ".",
       ],
     },
@@ -25,21 +34,21 @@ const Personal = () => {
       link: "./projects/VueCalculator/index.html",
       text: [
         "Same ",
-        <span class="linkText">calculator</span>,
+        <PersonalItemLink>calculator</PersonalItemLink>,
         " rewritten using Vue.js.",
       ],
     },
     {
       link: "./projects/Invaders/Invaders.jar",
       text: [
-        <span class="linkText">Space invaders</span>,
+        <PersonalItemLink>Space invaders</PersonalItemLink>,
         " style game, written in Java.",
       ],
     },
     {
       link: "./projects/NumberBonds/NumberBonds.jar",
       text: [
-        <span class="linkText">Number bonds invaders</span>,
+        <PersonalItemLink>Number bonds invaders</PersonalItemLink>,
         ". Modified version of the space invaders game.",
       ],
     },
@@ -47,7 +56,7 @@ const Personal = () => {
       link: "./projects/Bouncy/bouncy.jar",
       text: [
         "Java application with ",
-        <span class="linkText">bouncing balls</span>,
+        <PersonalItemLink>bouncing balls</PersonalItemLink>,
         ".",
       ],
     },
@@ -55,7 +64,7 @@ const Personal = () => {
       link: "https://scratch.mit.edu/projects/457142389/embed",
       text: [
         "Scratch  ",
-        <span class="linkText">musical note naming game</span>,
+        <PersonalItemLink>musical note naming game</PersonalItemLink>,
         ".",
       ],
     },
@@ -63,7 +72,7 @@ const Personal = () => {
       link: "https://github.com/ryan0583",
       text: [
         "Source code for these and other projects can be found on ",
-        <span class="linkText">my GitHub</span>,
+        <PersonalItemLink>my GitHub</PersonalItemLink>,
         ".",
       ],
     },
