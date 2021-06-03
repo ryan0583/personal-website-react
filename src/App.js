@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import NavBar from "./components/NavBar/NavBar";
 import Content from "./components/Content/Content";
-import Personal from "./components/Sections/Personal/Personal";
+import ModalsContainer from "./components/Modal/ModalsContainer";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <NavBar />
       <Content />
-      <Personal />
+      <ModalsContainer />
     </div>
   );
 }

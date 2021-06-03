@@ -28,8 +28,17 @@ body {
   background-color: rgba(0, 102, 179, 1);
 }
 
-.bg-orange {
+.bg-orange,
+a:hover,
+.btn:hover {
   background-color: rgba(255, 129, 80, 1);
+  transition: background-color 0.3s;
+}
+
+.btn {
+  color: white;
+  background-color: rgba(0, 102, 179, 1);
+  transition: background-color 0.4s;
 }
 
 h1 {

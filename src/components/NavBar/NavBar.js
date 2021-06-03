@@ -15,8 +15,6 @@ const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, [yPosition]);
 
-  console.log(yPosition);
-
   return (
     <nav class="navbar navbar-default navbar-expand-lg navbar-dark pl-0 pr-0">
       <div class="container-fluid brand">

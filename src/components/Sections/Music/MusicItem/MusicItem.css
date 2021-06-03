@@ -1,0 +1,9 @@
+.img-music {
+  height: 13.8vw;
+}
+
+@media screen and (max-width: 575px) {
+  .img-music {
+    height: 23.5vw;
+  }
+}
