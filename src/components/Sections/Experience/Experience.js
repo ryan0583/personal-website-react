@@ -42,14 +42,15 @@ const Experience = () => {
   ];
 
   return (
-    <div id="experience" class="row bg-orange pt-2 pl-2 pl-sm-0">
-      <div class="col-12 col-sm-3 align-self-center d-flex justify-content-end justify-content-sm-start order-sm-last">
+    <div id="experience" className="row bg-orange pt-2 pl-2 pl-sm-0">
+      <div className="col-12 col-sm-3 align-self-center d-flex justify-content-end justify-content-sm-start order-sm-last">
         <h3>Experience</h3>
       </div>
 
-      <div class="col-12 col-sm-9">
+      <div className="col-12 col-sm-9">
         {jobs.map((job) => (
           <ExperienceItem
+            key={job.name}
             name={job.name}
             link={job.link}
             img={job.img}

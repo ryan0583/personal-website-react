@@ -16,8 +16,8 @@ const NavBar = () => {
   }, [yPosition]);
 
   return (
-    <nav class="navbar navbar-default navbar-expand-lg navbar-dark pl-0 pr-0">
-      <div class="container-fluid brand">
+    <nav className="navbar navbar-default navbar-expand-lg navbar-dark pl-0 pr-0">
+      <div className="container-fluid brand">
         <p
           className={`navbar-brand text-white pl-1 ${
             yPosition <= 100 && "hide"
@@ -25,14 +25,14 @@ const NavBar = () => {
         >
           <img
             alt="Ryan Griffiths"
-            class="img-fluid rounded-circle img-brand"
+            className="img-fluid rounded-circle img-brand"
             src={HeaderImg}
           />{" "}
           Ryan Griffiths
         </p>
 
         <button
-          class="navbar-toggler ml-auto rounded-0"
+          className="navbar-toggler ml-auto rounded-0"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -40,11 +40,11 @@ const NavBar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ml-auto">
             <NavLink href="#home" linkText="Home" />
             <NavLink href="#about" linkText="About" />
             <NavLink href="#experience" linkText="Experience" />

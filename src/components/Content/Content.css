@@ -1,0 +1,5 @@
+.content {
+  box-shadow: 0 5px 20px rgba(20, 20, 20, 0.3);
+  position: relative;
+  z-index: 2;
+}

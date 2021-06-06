@@ -10,14 +10,15 @@ const About = () => {
   ];
 
   return (
-    <div id="about" class="row bg-blue pt-2 pr-2 pr-sm-0">
-      <h3 class="col-12 col-sm-3 align-self-center d-flex justify-content-start justify-content-sm-end">
+    <div id="about" className="row bg-blue pt-2 pr-2 pr-sm-0">
+      <h3 className="col-12 col-sm-3 align-self-center d-flex justify-content-start justify-content-sm-end">
         About
       </h3>
 
-      <div class="col-12 col-sm-9 bg-white mb-0">
+      <div className="col-12 col-sm-9 bg-white mb-0">
         {content.map((contentText, index) => (
           <AboutItem
+            key={index}
             colourClass={index % 2 ? "bg-blue" : "bg-orange"}
             text={contentText}
           />

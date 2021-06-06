@@ -18,12 +18,6 @@ code {
   padding: 0;
 }
 
-body {
-  /**This is a massive bodge, but to stop the body overlapping with my negative z indexed stuff I have to do this.**/
-  position: relative;
-  z-index: -10;
-}
-
 .bg-blue {
   background-color: rgba(0, 102, 179, 1);
 }

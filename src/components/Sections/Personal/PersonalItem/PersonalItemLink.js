@@ -1,5 +1,5 @@
 const PersonalItemLink = ({ children }) => {
-  return <span class="linkText">{children}</span>;
+  return <span className="linkText">{children}</span>;
 };
 
 export default PersonalItemLink;

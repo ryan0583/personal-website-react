@@ -57,14 +57,15 @@ const Music = () => {
   ];
 
   return (
-    <div id="music" class="row bg-orange pt-2 pl-2 pl-sm-0">
-      <h3 class="col-12 col-sm-3 align-self-center d-flex justify-content-end justify-content-sm-start order-sm-last">
+    <div id="music" className="row bg-orange pt-2 pl-2 pl-sm-0">
+      <h3 className="col-12 col-sm-3 align-self-center d-flex justify-content-end justify-content-sm-start order-sm-last">
         Music
       </h3>
 
-      <div class="col-sm-9">
+      <div className="col-sm-9">
         {items.map((item) => (
           <MusicItem
+            key={item.heading}
             link={item.link}
             modal={item.modal}
             heading={item.heading}
