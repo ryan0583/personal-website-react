@@ -78,11 +78,11 @@ const Footer = () => {
             ))}
           </div>
         </div>
+        </div>
 
-        <div className="row d-flex justify-content-start pl-2">
+        <div className="d-flex justify-content-start pl-2">
           <p className="footer text-white">&copy; Ryan Griffiths</p>
         </div>
-      </div>
     </footer>
   );
 };
