@@ -81,7 +81,9 @@ const Personal = () => {
   ];
 
   return (
-    <div id="personal" className="row bg-blue pt-2 pr-2 pr-sm-0">
+    <>
+    <div className="anchor" id="personal"/>
+    <div className="row bg-blue pt-2 pr-2 pr-sm-0">
       <h3 className="col-12 d-sm-none d-flex justify-content-start">
         Personal Projects
       </h3>
@@ -106,6 +108,7 @@ const Personal = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 

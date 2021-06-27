@@ -2,7 +2,9 @@ import ContactField from "./ContactField";
 
 const Contact = () => {
   return (
-    <div id="contact" className="row bg-blue pt-2 pr-2 pr-sm-0">
+    <>
+    <div className="anchor" id="contact"/>
+    <div className="row bg-blue pt-2 pr-2 pr-sm-0">
       <h3 className="col-sm-3 align-self-center d-flex justify-content-start justify-content-sm-end">
         Contact
       </h3>
@@ -59,6 +61,7 @@ const Contact = () => {
         </form>
       </div>
     </div>
+    </>
   );
 };
 

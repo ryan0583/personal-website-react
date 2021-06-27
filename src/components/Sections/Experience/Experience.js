@@ -42,7 +42,9 @@ const Experience = () => {
   ];
 
   return (
-    <div id="experience" className="row bg-orange pt-2 pl-2 pl-sm-0">
+    <>
+    <div className="anchor" id="experience"/>
+    <div className="row bg-orange pt-2 pl-2 pl-sm-0">
       <div className="col-12 col-sm-3 align-self-center d-flex justify-content-end justify-content-sm-start order-sm-last">
         <h3>Experience</h3>
       </div>
@@ -60,6 +62,7 @@ const Experience = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 

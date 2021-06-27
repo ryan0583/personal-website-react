@@ -80,6 +80,12 @@ label {
   text-decoration: underline;
 }
 
+.anchor {
+  margin-top: -40px;
+  display: hidden;
+  position: absolute;
+}
+
 @media screen and (max-width: 575px) {
   h2 {
     font-size: 6vw;

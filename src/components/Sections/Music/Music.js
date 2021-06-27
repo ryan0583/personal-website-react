@@ -57,7 +57,9 @@ const Music = () => {
   ];
 
   return (
-    <div id="music" className="row bg-orange pt-2 pl-2 pl-sm-0">
+    <>
+    <div className="anchor" id="music"/>
+    <div className="row bg-orange pt-2 pl-2 pl-sm-0">
       <h3 className="col-12 col-sm-3 align-self-center d-flex justify-content-end justify-content-sm-start order-sm-last">
         Music
       </h3>
@@ -75,6 +77,7 @@ const Music = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 

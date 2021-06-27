@@ -16,6 +16,7 @@ const NavBar = () => {
   }, [yPosition]);
 
   return (
+    <div className="parent">
     <nav className="navbar navbar-default navbar-expand-lg navbar-dark pl-0 pr-0">
       <div className="container-fluid brand">
         <p
@@ -43,7 +44,7 @@ const NavBar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className={`${true && "collapse"} navbar-collapse`} id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <NavLink href="#home" linkText="Home" />
             <NavLink href="#about" linkText="About" />
@@ -55,6 +56,8 @@ const NavBar = () => {
         </div>
       </div>
     </nav>
+    <div className="spacer"></div>
+    </div>
   );
 };
 

@@ -10,7 +10,9 @@ const About = () => {
   ];
 
   return (
-    <div id="about" className="row bg-blue pt-2 pr-2 pr-sm-0">
+    <>
+    <div className="anchor" id="about"/>
+    <div className="row bg-blue pt-2 pr-2 pr-sm-0">
       <h3 className="col-12 col-sm-3 align-self-center d-flex justify-content-start justify-content-sm-end">
         About
       </h3>
@@ -25,6 +27,7 @@ const About = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 
