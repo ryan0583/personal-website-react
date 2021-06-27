@@ -1,6 +1,6 @@
 import "./MusicItem.css";
 
-const MusicItem = ({ link, heading, img, description, modal }) => {
+const MusicItem = ({ link, heading, img, description, modal, last }) => {
   return (
     <a
       className="playMusic expmusic"
@@ -8,7 +8,7 @@ const MusicItem = ({ link, heading, img, description, modal }) => {
       data-toggle={modal ? "modal" : undefined}
       data-target={modal}
     >
-      <div className="row mb-1 bg-white">
+      <div className={`row ${!last && "mb-1"} bg-white`}>
         <div className="col-3 col-sm-4 align-self-center d-flex justify-content-start justify-content-sm-end pl-0 pr-0">
           <img alt={heading} className="img-fluid img-music" src={img} />
         </div>

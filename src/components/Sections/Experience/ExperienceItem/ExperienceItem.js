@@ -1,9 +1,9 @@
 import "./ExperienceItem.css";
 
-const ExperienceItem = ({ name, link, img, dates, description }) => {
+const ExperienceItem = ({ name, link, img, dates, description, last }) => {
   return (
     <a className="expmusic" href={link} target="_blank" rel="noreferrer">
-      <div className="row pt-2 pt-md-3 pb-1 mb-1 bg-white">
+      <div className={`row pt-2 pt-md-3  "pb-1" ${!last && "mb-1"} bg-white`}>
         <div className="col-3 col-sm-4 align-self-center d-flex justify-content-center justify-content-sm-end pl-0 pr-0 pr-sm-3">
           <img alt={name} className="img-fluid img-logo" src={img} />
         </div>

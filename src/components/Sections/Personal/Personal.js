@@ -104,6 +104,7 @@ const Personal = () => {
             colourClass={index % 2 ? "bg-blue" : "bg-orange"}
             link={item.link}
             text={item.text}
+            last={index === content.length - 1}
           />
         ))}
       </div>

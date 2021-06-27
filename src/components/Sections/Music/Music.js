@@ -65,7 +65,7 @@ const Music = () => {
       </h3>
 
       <div className="col-sm-9">
-        {items.map((item) => (
+        {items.map((item, index) => (
           <MusicItem
             key={item.heading}
             link={item.link}
@@ -73,6 +73,7 @@ const Music = () => {
             heading={item.heading}
             img={item.img}
             description={item.description}
+            last={index === items.length - 1}
           />
         ))}
       </div>

@@ -23,6 +23,7 @@ const About = () => {
             key={index}
             colourClass={index % 2 ? "bg-blue" : "bg-orange"}
             text={contentText}
+            last={index === content.length-1}
           />
         ))}
       </div>

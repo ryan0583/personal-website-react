@@ -50,7 +50,7 @@ const Experience = () => {
       </div>
 
       <div className="col-12 col-sm-9">
-        {jobs.map((job) => (
+        {jobs.map((job, index) => (
           <ExperienceItem
             key={job.name}
             name={job.name}
@@ -58,6 +58,7 @@ const Experience = () => {
             img={job.img}
             dates={job.dates}
             description={job.description}
+            last={index === jobs.length - 1}
           />
         ))}
       </div>
