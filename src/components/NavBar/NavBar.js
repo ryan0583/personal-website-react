@@ -1,4 +1,4 @@
-import HeaderImg from "../../img/Header.jpg";
+import HeaderImg from "../../img/Header.png";
 import NavLink from "../NavLink/NavLink";
 import "./NavBar.css";
 import { useState, useEffect } from "react";

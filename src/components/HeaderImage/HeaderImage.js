@@ -1,4 +1,4 @@
-import HeaderImg from "../../img/Header.jpg";
+import HeaderImg from "../../img/Header.png";
 import "./HeaderImage.css";
 
 const HeaderImage = () => (
