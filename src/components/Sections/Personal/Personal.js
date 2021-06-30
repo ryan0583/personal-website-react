@@ -7,7 +7,7 @@ const Personal = () => {
       text: "This website! Uses Bootstrap 4 and React.",
     },
     {
-      link: "https://upbeat-kowalevski-135792.netlify.app/",
+      link: "https://world-cup-2018.netlify.app/",
       text: [
         "Application for viewing stats from the ",
         <PersonalItemLink key="1">2018 World Cup</PersonalItemLink>,
