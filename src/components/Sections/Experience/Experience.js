@@ -10,7 +10,7 @@ const Experience = () => {
       img: statsbomb_logo,
       link: "https://statsbomb.com/",
       dates: "July 2021 - present",
-      description: `StatsBomb are football analytics experts. They speicialise in collecting
+      description: `StatsBomb are football analytics experts. They specialise in collecting
       and visualising data from matches to help elite football clubs make better
       tactical and transfer market decisions. I work as a senior front end developer on the 
       StatsBomb IQ product.`,
