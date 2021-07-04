@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34f600a5.chunk.css",
+    "main.js": "/static/js/main.0e34ad07.chunk.js",
+    "main.js.map": "/static/js/main.0e34ad07.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6e4ef8e9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6e4ef8e9.js.map",
+    "static/js/2.718a9682.chunk.js": "/static/js/2.718a9682.chunk.js",
+    "static/js/2.718a9682.chunk.js.map": "/static/js/2.718a9682.chunk.js.map",
+    "static/js/3.bfee42f5.chunk.js": "/static/js/3.bfee42f5.chunk.js",
+    "static/js/3.bfee42f5.chunk.js.map": "/static/js/3.bfee42f5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.34f600a5.chunk.css.map": "/static/css/main.34f600a5.chunk.css.map",
+    "static/js/2.718a9682.chunk.js.LICENSE.txt": "/static/js/2.718a9682.chunk.js.LICENSE.txt",
+    "static/media/01 Flicker Fuse.247beb3a.ogg": "/static/media/01 Flicker Fuse.247beb3a.ogg",
+    "static/media/02 Keeping it True.2097a384.ogg": "/static/media/02 Keeping it True.2097a384.ogg",
+    "static/media/EM_logo.841b85fd.jpg": "/static/media/EM_logo.841b85fd.jpg",
+    "static/media/Facebook-color.1f949d2d.svg": "/static/media/Facebook-color.1f949d2d.svg",
+    "static/media/Facebook-white.ab46fbb3.svg": "/static/media/Facebook-white.ab46fbb3.svg",
+    "static/media/Family.08407b5f.jpg": "/static/media/Family.08407b5f.jpg",
+    "static/media/Github-color.7e390bb7.svg": "/static/media/Github-color.7e390bb7.svg",
+    "static/media/Github-white.53b25144.svg": "/static/media/Github-white.53b25144.svg",
+    "static/media/Header.6a11caf7.png": "/static/media/Header.6a11caf7.png",
+    "static/media/LinkedIn-color.7e869c98.svg": "/static/media/LinkedIn-color.7e869c98.svg",
+    "static/media/LinkedIn-white.f087b8fb.svg": "/static/media/LinkedIn-white.f087b8fb.svg",
+    "static/media/Shedmen_logo.2f61aac1.png": "/static/media/Shedmen_logo.2f61aac1.png",
+    "static/media/TPP_Logo.a02d8145.jpg": "/static/media/TPP_Logo.a02d8145.jpg",
+    "static/media/YSM_logo.7a564778.jpg": "/static/media/YSM_logo.7a564778.jpg",
+    "static/media/Youtube-color.7371bd6c.svg": "/static/media/Youtube-color.7371bd6c.svg",
+    "static/media/Youtube-white.590b0139.svg": "/static/media/Youtube-white.590b0139.svg",
+    "static/media/statsbomb_logo.e9d23721.png": "/static/media/statsbomb_logo.e9d23721.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e4ef8e9.js",
+    "static/js/2.718a9682.chunk.js",
+    "static/css/main.34f600a5.chunk.css",
+    "static/js/main.0e34ad07.chunk.js"
+  ]
+}
