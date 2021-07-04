@@ -51,6 +51,7 @@ h3 {
   font-family: "Calibri", sans-serif;
   font-size: 4vw;
   color: rgba(255, 255, 255, 1);
+  background-color: inherit;
 }
 
 h4 {
