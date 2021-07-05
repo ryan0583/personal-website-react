@@ -33,10 +33,6 @@ footer {
   padding-top: 1vh;
 }
 
-.arse {
-  background-color: red;
-}
-
 footer.beneath {
   z-index: -1;
 }
