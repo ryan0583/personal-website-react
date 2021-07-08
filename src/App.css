@@ -7,3 +7,9 @@
   z-index: -5;
   height: 49vh;
 }
+
+@media screen and (max-width: 575px) {
+  .footer-spacer {
+    height: 39vh;
+  }
+}
