@@ -13,7 +13,7 @@ const Experience = () => {
       description: `StatsBomb are football analytics experts. They specialise in collecting
       and visualising data from matches to help elite football clubs make better
       tactical and transfer market decisions. I work as a senior front end developer on the 
-      StatsBomb IQ product.`,
+      IQ Live product.`,
     },
     {
       name: "BJSS",
@@ -22,11 +22,11 @@ const Experience = () => {
       dates: "September 2018 - June 2021",
       description: `After taking a 3 month break to spend the summer with my
             children, I started work with BJSS, a software consultant
-            headquartered in Leeds. My current engagement is with a large
+            headquartered in Leeds. My most recent engagement was with a large
             media company, developing and maintaining APIs and UIs used
-            within the organisation. Previously I worked as a fullstack web
+            within the organisation. Previously to that I worked as a fullstack web
             developer for a large parcel delivery organisation. While
-            working here, I have gained skills in Vue, React, Angular,
+            working here, I gained skills in Vue, React, Angular,
             Kotlin, Spring, Jenkins, AWS, JUnit and Jest.`,
     },
     {
@@ -43,26 +43,26 @@ const Experience = () => {
 
   return (
     <>
-    <div className="anchor" id="experience"/>
-    <div className="row bg-orange pt-2 pl-2 pl-sm-0">
-      <div className="col-12 col-sm-3 align-self-center d-flex justify-content-end justify-content-sm-start order-sm-last">
-        <h3>Experience</h3>
-      </div>
+      <div className="anchor" id="experience" />
+      <div className="row bg-orange pt-2 pl-2 pl-sm-0">
+        <div className="col-12 col-sm-3 align-self-center d-flex justify-content-end justify-content-sm-start order-sm-last">
+          <h3>Experience</h3>
+        </div>
 
-      <div className="col-12 col-sm-9">
-        {jobs.map((job, index) => (
-          <ExperienceItem
-            key={job.name}
-            name={job.name}
-            link={job.link}
-            img={job.img}
-            dates={job.dates}
-            description={job.description}
-            last={index === jobs.length - 1}
-          />
-        ))}
+        <div className="col-12 col-sm-9">
+          {jobs.map((job, index) => (
+            <ExperienceItem
+              key={job.name}
+              name={job.name}
+              link={job.link}
+              img={job.img}
+              dates={job.dates}
+              description={job.description}
+              last={index === jobs.length - 1}
+            />
+          ))}
+        </div>
       </div>
-    </div>
     </>
   );
 };
