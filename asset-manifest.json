@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.228e07b2.chunk.css",
-    "main.js": "/static/js/main.d6df9be2.chunk.js",
-    "main.js.map": "/static/js/main.d6df9be2.chunk.js.map",
+    "main.css": "/static/css/main.4f15a49d.chunk.css",
+    "main.js": "/static/js/main.4fb59cae.chunk.js",
+    "main.js.map": "/static/js/main.4fb59cae.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6e4ef8e9.js",
     "runtime-main.js.map": "/static/js/runtime-main.6e4ef8e9.js.map",
     "static/js/2.718a9682.chunk.js": "/static/js/2.718a9682.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.bfee42f5.chunk.js": "/static/js/3.bfee42f5.chunk.js",
     "static/js/3.bfee42f5.chunk.js.map": "/static/js/3.bfee42f5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.228e07b2.chunk.css.map": "/static/css/main.228e07b2.chunk.css.map",
+    "static/css/main.4f15a49d.chunk.css.map": "/static/css/main.4f15a49d.chunk.css.map",
     "static/js/2.718a9682.chunk.js.LICENSE.txt": "/static/js/2.718a9682.chunk.js.LICENSE.txt",
     "static/media/01 Flicker Fuse.247beb3a.ogg": "/static/media/01 Flicker Fuse.247beb3a.ogg",
     "static/media/02 Keeping it True.2097a384.ogg": "/static/media/02 Keeping it True.2097a384.ogg",
@@ -28,12 +28,12 @@
     "static/media/YSM_logo.7a564778.jpg": "/static/media/YSM_logo.7a564778.jpg",
     "static/media/Youtube-color.7371bd6c.svg": "/static/media/Youtube-color.7371bd6c.svg",
     "static/media/Youtube-white.590b0139.svg": "/static/media/Youtube-white.590b0139.svg",
-    "static/media/statsbomb_logo.e9d23721.png": "/static/media/statsbomb_logo.e9d23721.png"
+    "static/media/statsbomb_logo.b8d1a5e8.png": "/static/media/statsbomb_logo.b8d1a5e8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6e4ef8e9.js",
     "static/js/2.718a9682.chunk.js",
-    "static/css/main.228e07b2.chunk.css",
-    "static/js/main.d6df9be2.chunk.js"
+    "static/css/main.4f15a49d.chunk.css",
+    "static/js/main.4fb59cae.chunk.js"
   ]
 }
